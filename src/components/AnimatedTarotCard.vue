@@ -51,7 +51,7 @@ export default {
             showCardDetails: false,
             currentCardIndex: 0,
             rotationInterval: null,
-            rotationSpeed: 200,
+            rotationSpeed: 50,
             selectedCard: null,
         }
     },
@@ -101,7 +101,7 @@ export default {
         "img description";
     row-gap: 5px; 
     column-gap: 20px;
-    height: 700px;
+    max-height: 700px;
     background-color: #fff0e4;
     padding: 20px;
     border: black 1px solid;

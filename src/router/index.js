@@ -5,6 +5,8 @@ import ReadingView from '../views/ReadingView.vue'
 import CardDetailsView from '../views/CardDetailsView.vue'
 import ReadingSingleView from '../views/ReadingSingleView.vue'
 import ReadingThreeView from '../views/ReadingThreeView.vue'
+import PsychicReadingView from '../views/PsychicReadingView.vue'
+import DailyCardView from '../views/DailyCardView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +36,16 @@ const router = createRouter({
       path: '/reading/three',
       name: 'reading-three',
       component: ReadingThreeView,
+    },
+    {
+      path: '/reading/daily-card',
+      name: 'daily-card',
+      component: DailyCardView,
+    },
+    {
+      path:'/psychic-reading',
+      name: 'psychic-reading',
+      component: PsychicReadingView,
     },
     {
       path: '/about',
